@@ -1,0 +1,173 @@
+{
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a Ponfile instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "Ponfile",
+        "description": ""
+      }
+    },
+    {
+      "name": "lookup",
+      "access": "",
+      "virtual": false,
+      "description": "Lookup ponfile",
+      "parameters": [
+        {
+          "name": "basedir",
+          "type": "string",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": []
+    },
+    {
+      "name": "ponfile",
+      "access": "",
+      "virtual": false,
+      "description": "",
+      "parameters": [],
+      "examples": []
+    }
+  ],
+  "classes": [
+    {
+      "name": "Ponfile",
+      "description": "",
+      "extends": [
+        "Pon"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "Ponfile",
+        "description": "Ponfile configuration",
+        "parameters": [
+          {
+            "name": "config",
+            "type": [
+              "string",
+              "Object"
+            ],
+            "description": "",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          }
+        ],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run a function",
+          "parameters": [
+            {
+              "name": "patterns",
+              "type": "string",
+              "description": "Name patten(s) to run",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise",
+            "description": ""
+          }
+        },
+        {
+          "name": "bind",
+          "access": "",
+          "virtual": false,
+          "description": "Returns runner function bound to the instance",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "ponBound",
+            "description": "Bound function"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pon",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "Pon",
+        "description": "Simple task runner",
+        "parameters": [
+          {
+            "name": "tasks",
+            "type": "Object.<string, function()>",
+            "description": "",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          }
+        ],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run a function",
+          "parameters": [
+            {
+              "name": "patterns",
+              "type": "string",
+              "description": "Name patten(s) to run",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise",
+            "description": ""
+          }
+        },
+        {
+          "name": "bind",
+          "access": "",
+          "virtual": false,
+          "description": "Returns runner function bound to the instance",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "ponBound",
+            "description": "Bound function"
+          }
+        }
+      ]
+    }
+  ]
+}
