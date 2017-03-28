@@ -24,7 +24,7 @@
   "homepage": "https://github.com/realglobe-Inc/ponfile#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "findout": "^2.1.2"
+    "findup-sync": "^0.4.3"
   },
   "devDependencies": {
     "ababel": "^2.0.1",

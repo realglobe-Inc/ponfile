@@ -20,8 +20,8 @@ describe('ponfile', function () {
   }))
 
   it('Ponfile', () => co(function * () {
-    let ponfile = ok(new Ponfile(`${__dirname}/../misc/mocks`))
-    console.log(ponfile)
+    let ponfile = new Ponfile(`${__dirname}/../misc/mocks`)
+    ok(ponfile)
   }))
 })
 
