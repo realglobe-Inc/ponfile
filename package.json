@@ -6,7 +6,7 @@
   "browser": "shim/browser",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepare": "node ./ci/build.js && node ./ci/shim.js"
+    "prepare": "node ./ci/build.js && node ./ci/shim.js && node ./ci/assets.js"
   },
   "repository": "realglobe-Inc/ponfile",
   "keywords": [
@@ -37,8 +37,10 @@
     "ape-tmpl": "^5.0.20",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
+    "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "pon": "^2.0.1",
+    "pon": "^2.1.5",
+    "pon-assets": "^1.0.3",
     "sg-templates": "^1.4.4",
     "stringcase": "^3.2.1",
     "sugos-travis": "^2.0.7",
