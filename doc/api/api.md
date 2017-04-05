@@ -1,4 +1,4 @@
-# ponfile@1.0.2
+# ponfile@2.0.0
 
 Configuration file for pon
 
@@ -42,7 +42,7 @@ Ponfile configuration
 
 **Extends**:
 
-+ `Pon`
++ `PonRunner`
 
 
 

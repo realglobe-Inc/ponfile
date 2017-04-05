@@ -52,7 +52,7 @@
       "name": "Ponfile",
       "description": "",
       "extends": [
-        "Pon"
+        "PonRunner"
       ],
       "access": "",
       "virtual": false,
@@ -112,14 +112,14 @@
       ]
     },
     {
-      "name": "Pon",
+      "name": "PonRunner",
       "description": "",
       "extends": [],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "Pon",
+        "name": "PonRunner",
         "description": "Simple task runner",
         "parameters": [
           {

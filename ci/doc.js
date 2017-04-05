@@ -17,7 +17,7 @@ const writeout = require('writeout')
 apeTasking.runTasks('build', [
   // Generate jsdoc.json
   () => co(function * () {
-    let src = [ 'lib/*.js', require.resolve('pon/lib/pon.js') ].join(' ')
+    let src = [ 'lib/*.js', require.resolve('pon-runner/lib/pon_runner.js') ].join(' ')
     let dest = 'jsdoc.json'
     let data = execSync(`
     jsdoc ${src} -t templates/haruki -d console -q format=JSON
