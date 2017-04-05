@@ -1,6 +1,6 @@
 {
   "name": "ponfile",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Configuration file for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/realglobe-Inc/ponfile#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "findup-sync": "^0.4.3"
+    "findup-sync": "^0.4.3",
+    "pon-runner": "^1.0.1"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -39,15 +40,11 @@
     "coz": "^6.0.20",
     "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "pon": "^2.1.5",
     "pon-assets": "^1.0.3",
     "sg-templates": "^1.4.4",
     "stringcase": "^3.2.1",
     "sugos-travis": "^2.0.7",
     "writeout": "^2.1.0"
-  },
-  "peerDependencies": {
-    "pon": "*"
   },
   "engines": {
     "node": ">=6",
