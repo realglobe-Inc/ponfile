@@ -95,7 +95,7 @@ console.log(config)
 API Guide
 -----
 
-+ [ponfile@1.0.2](./doc/api/api.md)
++ [ponfile@2.0.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#ponfile-function-create)
   + [lookup(basedir)](./doc/api/api.md#ponfile-function-lookup)
   + [Ponfile](./doc/api/api.md#ponfile-class)
