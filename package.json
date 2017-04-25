@@ -1,6 +1,6 @@
 {
   "name": "ponfile",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Configuration file for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,8 +24,8 @@
   "homepage": "https://github.com/realglobe-Inc/ponfile#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "findup-sync": "^0.4.3",
-    "pon-runner": "^1.0.1"
+    "findup-sync": "^1.0.0",
+    "pon-runner": "^2.0.1"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -40,7 +40,7 @@
     "coz": "^6.0.20",
     "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "pon-assets": "^1.0.3",
+    "pon-assets": "^1.1.5",
     "sg-templates": "^1.4.4",
     "stringcase": "^3.2.1",
     "sugos-travis": "^2.0.7",
@@ -49,8 +49,5 @@
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
