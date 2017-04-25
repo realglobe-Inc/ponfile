@@ -1,4 +1,4 @@
-# ponfile@2.0.0
+# ponfile@3.0.0
 
 Configuration file for pon
 
@@ -9,6 +9,8 @@ Configuration file for pon
   + [new Ponfile(config)](#ponfile-class-ponfile-constructor)
   + [ponfile.run(patterns)](#ponfile-class-ponfile-run)
   + [ponfile.bind()](#ponfile-class-ponfile-bind)
+  + [ponfile.set(tasks)](#ponfile-class-ponfile-set)
+  + [ponfile.alias(pointers)](#ponfile-class-ponfile-alias)
 
 ## Functions
 
@@ -73,6 +75,28 @@ Run a function
 ### ponfile.bind() -> `ponBound`
 
 Returns runner function bound to the instance
+
+<a class='md-heading-link' name="ponfile-class-ponfile-set" ></a>
+
+### ponfile.set(tasks)
+
+Set tasks
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| tasks | Object.&lt;string, function()&gt; | Tasks to register |
+
+
+<a class='md-heading-link' name="ponfile-class-ponfile-alias" ></a>
+
+### ponfile.alias(pointers)
+
+Set task aliases
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| pointers | Object.&lt;string, string&gt; |  |
+
 
 
 

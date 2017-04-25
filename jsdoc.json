@@ -108,6 +108,40 @@
             "type": "ponBound",
             "description": "Bound function"
           }
+        },
+        {
+          "name": "set",
+          "access": "",
+          "virtual": false,
+          "description": "Set tasks",
+          "parameters": [
+            {
+              "name": "tasks",
+              "type": "Object.<string, function()>",
+              "description": "Tasks to register",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
+        },
+        {
+          "name": "alias",
+          "access": "",
+          "virtual": false,
+          "description": "Set task aliases",
+          "parameters": [
+            {
+              "name": "pointers",
+              "type": "Object.<string, string>",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
         }
       ]
     },
@@ -166,6 +200,40 @@
             "type": "ponBound",
             "description": "Bound function"
           }
+        },
+        {
+          "name": "set",
+          "access": "",
+          "virtual": false,
+          "description": "Set tasks",
+          "parameters": [
+            {
+              "name": "tasks",
+              "type": "Object.<string, function()>",
+              "description": "Tasks to register",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
+        },
+        {
+          "name": "alias",
+          "access": "",
+          "virtual": false,
+          "description": "Set task aliases",
+          "parameters": [
+            {
+              "name": "pointers",
+              "type": "Object.<string, string>",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
         }
       ]
     }
