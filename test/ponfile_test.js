@@ -6,23 +6,23 @@
 
 const Ponfile = require('../lib/ponfile.js')
 const { ok } = require('assert')
-const co = require('co')
+
 
 describe('ponfile', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Ponfile', () => co(function * () {
+  it('Ponfile', async () => {
     let ponfile = new Ponfile(`${__dirname}/../misc/mocks`)
     ok(ponfile)
-  }))
+  })
 })
 
 /* global describe, before, after, it */

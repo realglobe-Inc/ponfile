@@ -6,22 +6,22 @@
 
 const lookup = require('../lib/lookup.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('lookup', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Lookup', () => co(function * () {
+  it('Lookup', async () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */
