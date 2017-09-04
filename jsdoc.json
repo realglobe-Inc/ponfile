@@ -171,6 +171,14 @@
             "default": "{}",
             "optional": true,
             "nullable": ""
+          },
+          {
+            "name": "options.prefixer",
+            "type": "function",
+            "description": "Prefix resolver",
+            "default": "",
+            "optional": true,
+            "nullable": ""
           }
         ],
         "examples": []
