@@ -1,6 +1,6 @@
 {
   "name": "ponfile",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Configuration file for pon",
   "main": "lib",
   "browser": "shim/browser",
