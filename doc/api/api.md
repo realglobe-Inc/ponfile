@@ -1,4 +1,4 @@
-# ponfile@4.1.0
+# ponfile@4.1.1
 
 Configuration file for pon
 
@@ -6,7 +6,7 @@ Configuration file for pon
   + [create(args)](#ponfile-function-create)
   + [lookup(basedir)](#ponfile-function-lookup)
 + [`Ponfile`](#ponfile-class) Class
-  + [new Ponfile(config)](#ponfile-class-ponfile-constructor)
+  + [new Ponfile(config, options)](#ponfile-class-ponfile-constructor)
   + [ponfile.run(patterns)](#ponfile-class-ponfile-run)
   + [ponfile.bind()](#ponfile-class-ponfile-bind)
   + [ponfile.set(tasks)](#ponfile-class-ponfile-set)
@@ -50,13 +50,14 @@ Ponfile configuration
 
 <a class='md-heading-link' name="ponfile-class-ponfile-constructor" ></a>
 
-### new Ponfile(config)
+### new Ponfile(config, options)
 
 Constructor of Ponfile class
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| config | string,Object |  |
+| config | string,Object | Task configuration or it file path |
+| options | Object | Optional settings |
 
 
 <a class='md-heading-link' name="ponfile-class-ponfile-run" ></a>
