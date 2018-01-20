@@ -2,5 +2,8 @@
 
 module.exports = {
   foo () {},
-  bar () {}
+  bar () {},
+  $doc: {
+    foo: 'This is foo'
+  }
 }

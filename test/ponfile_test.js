@@ -21,6 +21,7 @@ describe('ponfile', function () {
   it('Ponfile', async () => {
     const ponfile = new Ponfile(`${__dirname}/../misc/mocks`)
     ok(ponfile)
+    ok(ponfile.doc)
   })
 
   it('From object', async () => {
