@@ -67,9 +67,17 @@
               "string",
               "Object"
             ],
-            "description": "",
+            "description": "Task configuration or it file path",
             "default": "",
             "optional": "",
+            "nullable": ""
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Optional settings",
+            "default": "{}",
+            "optional": true,
             "nullable": ""
           }
         ],
