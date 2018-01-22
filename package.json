@@ -1,27 +1,16 @@
 {
   "name": "ponfile",
-  "version": "4.1.5",
   "description": "Configuration file for pon",
-  "main": "lib",
-  "browser": "shim/browser",
-  "scripts": {
-    "test": "node ./ci/test.js",
-    "prepare": "node ./ci/build.js && node ./ci/shim.js && node ./ci/assets.js"
-  },
-  "repository": "realglobe-Inc/ponfile",
-  "keywords": [
-    "Pon"
-  ],
+  "version": "4.1.5",
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishinish@gmail.com",
     "url": "http://okunishitaka.com"
   },
-  "license": "Apache-2.0",
+  "browser": "shim/browser",
   "bugs": {
     "url": "https://github.com/realglobe-Inc/ponfile/issues"
   },
-  "homepage": "https://github.com/realglobe-Inc/ponfile#readme",
   "dependencies": {
     "findup-sync": "^2.0.0",
     "pon-runner": "^3.3.5"
@@ -47,5 +36,16 @@
   "engines": {
     "node": ">=7.6",
     "npm": ">=4"
+  },
+  "homepage": "https://github.com/realglobe-Inc/ponfile#readme",
+  "keywords": [
+    "Pon"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib",
+  "repository": "realglobe-Inc/ponfile",
+  "scripts": {
+    "prepare": "node ./ci/build.js && node ./ci/shim.js && node ./ci/assets.js",
+    "test": "node ./ci/test.js"
   }
 }
