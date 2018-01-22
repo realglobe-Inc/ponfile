@@ -27,7 +27,7 @@
     "pon-runner": "^3.3.5"
   },
   "devDependencies": {
-    "ababel": "^4.0.1",
+    "ababel": "^4.0.6",
     "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
