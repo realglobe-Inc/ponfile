@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "findup-sync": "^2.0.0",
-    "pon-runner": "^3.3.5"
+    "pon-runner": "^3.4.1"
   },
   "devDependencies": {
     "ababel": "^4.0.6",
