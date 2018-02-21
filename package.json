@@ -1,7 +1,7 @@
 {
   "name": "ponfile",
   "description": "Configuration file for pon",
-  "version": "4.1.10",
+  "version": "4.2.0",
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishinish@gmail.com",
@@ -16,7 +16,7 @@
     "pon-runner": "^3.4.6"
   },
   "devDependencies": {
-    "ababel": "^4.0.6",
+    "ababel": "^4.0.7",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
