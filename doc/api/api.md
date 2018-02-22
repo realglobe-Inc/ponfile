@@ -1,10 +1,10 @@
-# ponfile@4.2.0
+# ponfile@4.2.1
 
 Configuration file for pon
 
 + Functions
   + [create(args)](#ponfile-function-create)
-  + [lookup(basedir)](#ponfile-function-lookup)
+  + [lookup()](#ponfile-function-lookup)
 + [`Ponfile`](#ponfile-class) Class
   + [new Ponfile(config, options)](#ponfile-class-ponfile-constructor)
   + [ponfile.run(patterns)](#ponfile-class-ponfile-run)
@@ -26,13 +26,8 @@ Create a Ponfile instance
 
 <a class='md-heading-link' name="ponfile-function-lookup" ></a>
 
-### lookup(basedir)
+### lookup()
 
-Lookup ponfile
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| basedir | string |  |
 
 
 
