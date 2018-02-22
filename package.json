@@ -1,7 +1,7 @@
 {
   "name": "ponfile",
   "description": "Configuration file for pon",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishinish@gmail.com",
