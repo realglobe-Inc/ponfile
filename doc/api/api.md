@@ -1,4 +1,4 @@
-# ponfile@4.2.4
+# ponfile@4.2.5
 
 Configuration file for pon
 
@@ -7,7 +7,7 @@ Configuration file for pon
   + [lookup(basedir)](#ponfile-function-lookup)
 + [`Ponfile`](#ponfile-class) Class
   + [new Ponfile(config, options)](#ponfile-class-ponfile-constructor)
-  + [ponfile.run(patterns)](#ponfile-class-ponfile-run)
+  + [ponfile.run(patterns, options)](#ponfile-class-ponfile-run)
   + [ponfile.bind()](#ponfile-class-ponfile-bind)
   + [ponfile.set(tasks)](#ponfile-class-ponfile-set)
   + [ponfile.alias(pointers)](#ponfile-class-ponfile-alias)
@@ -62,13 +62,14 @@ Constructor of Ponfile class
 
 <a class='md-heading-link' name="ponfile-class-ponfile-run" ></a>
 
-### ponfile.run(patterns) -> `Promise`
+### ponfile.run(patterns, options) -> `Promise`
 
 Run a function
 
 | Param | Type | Description |
 | ----- | --- | -------- |
 | patterns | string | Name patten(s) to run |
+| options | Object | optional setting |
 
 
 <a class='md-heading-link' name="ponfile-class-ponfile-bind" ></a>

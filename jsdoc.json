@@ -89,6 +89,14 @@
               "default": "",
               "optional": "",
               "nullable": ""
+            },
+            {
+              "name": "options",
+              "type": "Object",
+              "description": "optional setting",
+              "default": "",
+              "optional": true,
+              "nullable": ""
             }
           ],
           "examples": [],
@@ -196,6 +204,14 @@
               "description": "Name patten(s) to run",
               "default": "",
               "optional": "",
+              "nullable": ""
+            },
+            {
+              "name": "options",
+              "type": "Object",
+              "description": "optional setting",
+              "default": "",
+              "optional": true,
               "nullable": ""
             }
           ],
