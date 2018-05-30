@@ -13,23 +13,23 @@
   },
   "dependencies": {
     "findup-sync": "^2.0.0",
-    "pon-runner": "^3.4.11"
+    "pon-runner": "^3.4.12"
   },
   "devDependencies": {
-    "ababel": "^4.0.8",
+    "ababel": "^4.0.9",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^6.0.10",
-    "ape-updating": "^4.1.0",
-    "coz": "^7.0.1",
+    "ape-updating": "^5.0.1",
+    "coz": "^7.0.2",
     "filecopy": "^4.0.1",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
     "sg-templates": "^1.4.4",
-    "stringcase": "^4.1.1",
+    "stringcase": "^4.2.0",
     "sugos-travis": "^2.0.7",
     "writeout": "^2.2.1"
   },
