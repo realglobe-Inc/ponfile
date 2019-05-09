@@ -90,12 +90,12 @@ console.log(config)
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" Start -->
 
-<a name="section-doc-guides-10-a-p-i-guide-md"></a>
+<a name="section-doc-guides-10-api-guide-md"></a>
 
 API Guide
 -----
 
-+ [ponfile@4.2.5](./doc/api/api.md)
++ [ponfile@4.2.6](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#ponfile-function-create)
   + [lookup(basedir)](./doc/api/api.md#ponfile-function-lookup)
   + [Ponfile](./doc/api/api.md#ponfile-class)
